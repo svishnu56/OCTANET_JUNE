@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    color: black;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #222;
+    color: black;
+    padding: 20px 0;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.logo {
+    float: left;
+    width: 50px; 
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+nav {
+    float: right;
+    width: calc(100% - 200px);
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.row {
+    background-image: url('row-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.row h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.row p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 0px 580px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.click-btn {
+    background-color: #dc0c0c;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.click-btn:hover {
+    background-color: #2ee21a;
+}
